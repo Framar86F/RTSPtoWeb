@@ -1,0 +1,9 @@
+name: RTSPtoWeb
+version: "1.0.0"
+slug: rtsptoweb
+description: RTSP to WebRTC streaming server
+startup: services
+boot: auto
+image: "ghcr.io/framar86f/rtsptoweb"
+ports:
+  8083/tcp: 8083
